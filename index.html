@@ -5,13 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tonight's Plans</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </head>
   <body>
     <section id="nav-section"></section>
     <section id="header-section"></section>
     <section id="featured-event-section"></section>
     <section id="event-listing-section-1"></section>
-    <section id="event-listing-section-2"></section>
-    <section id="footer"></section>
+    <section class="event-listing-section-2"></section>
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between">
+          <div class="flex-1 mb-6 md:mb-0">
+            <h2 class="text-lg font-bold mb-4">Your Account</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-400">Sign Up</a></li>
+              <li><a href="#" class="hover:text-gray-400">Log In</a></li>
+              <li><a href="#" class="hover:text-gray-400">Help</a></li>
+            </ul>
+          </div>
+          <div class="flex-1 mb-6 md:mb-0">
+            <h2 class="text-lg font-bold mb-4">Discover</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-400">Groups</a></li>
+              <li><a href="#" class="hover:text-gray-400">Calendar</a></li>
+              <li><a href="#" class="hover:text-gray-400">Topics</a></li>
+              <li><a href="#" class="hover:text-gray-400">Cities</a></li>
+              <li><a href="#" class="hover:text-gray-400">Online Events</a></li>
+              <li><a href="#" class="hover:text-gray-400">Local Guides</a></li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <h2 class="text-lg font-bold mb-4">Tonight's Plans</h2>
+            <ul class="space-y-2">
+              <li><a href="#" class="hover:text-gray-400">About</a></li>
+              <li><a href="#" class="hover:text-gray-400">Blog</a></li>
+              <li><a href="#" class="hover:text-gray-400">Apps</a></li>
+              <li><a href="#" class="hover:text-gray-400">Podcast</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-8 flex flex-col md:flex-row items-center justify-between">
+          <div>
+            <h3 class="text-lg font-bold mb-2">Follow Us</h3>
+            <div class="footer-social-icons flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="text-gray-400 hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <p class="text-gray-400 text-sm">&copy; 2024 Tonight's Plans</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
